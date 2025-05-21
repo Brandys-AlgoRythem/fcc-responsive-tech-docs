@@ -1,8 +1,6 @@
-# freeCodeCamp - Technical Documentation Page Project
+# Technical Documentation Page
 
-This project is a technical documentation page created as part of the freeCodeCamp Responsive Web Design Certification. It demonstrates how to structure technical content for easy readability and navigation, using HTML5 and CSS3.
-
-Key features include a responsive navigation menu that allows users to quickly jump to different sections of the documentation.
+This project is a responsive technical documentation page. It's designed to present detailed information in a clear, organized format, featuring a navigation menu for easy access to different sections. The project highlights skills in HTML5 for structuring content and CSS3 for layout and responsiveness.
 
 ## Live Demo
 
