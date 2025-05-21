@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Career Guide - Americus, GA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>Tech Career Guide Sections</header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#Current_Tech_Landscape">Current Tech Landscape</a>
+        <a class="nav-link" href="#Job_Role_Analysis">Job Role Analysis</a>
+        <a class="nav-link" href="#Journey_to_Employment">Journey to Employment</a>
+        <a class="nav-link" href="#Strategic_Recommendations">Strategic Recommendations</a>
+        <a class="nav-link" href="#Key_Salary_Expectations">Key Salary Expectations</a>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>This report provides a comprehensive analysis of various web technology-focused job roles. It is specifically tailored to an individual with a background including a previous short-term job, a period as a stay-at-home parent, experience running an online business, and forthcoming certifications in HTML, CSS, JavaScript, and Python. </p>
+            <p>The analysis covers starting salaries, job availability, typical work arrangements, and an estimated timeline to secure employment, with a specific focus on opportunities accessible from Americus, Georgia. The objective is to offer a realistic and actionable guide for re-entering the workforce and transitioning into the technology sector. </p>
+            <p>The current tech job market, as highlighted by the Dice 2025 Tech Salary Report, shows some complexities. While average tech salaries have seen a modest increase, there's growing dissatisfaction among tech professionals regarding compensation. </p>
+            <p>For career changers, this landscape presents both challenges and opportunities. This underscores the importance of strategic skill development and positioning. </p>
+            <code>/* Tech Career Guide Introduction */</code>
+            <ul>
+                <li>Focus: Web technology job roles. </li>
+                <li>Audience: Career changer with specific background. </li>
+                <li>Scope: Salaries, availability, work arrangements, timeline for Americus, GA. </li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Current_Tech_Landscape">
+            <header>Current Tech Landscape</header>
+            <p>The technology sector is in a phase of dynamic adjustment. Average technology salaries reached $112,521 in 2024, a slight 1.2% increase year-over-year. However, only 41% of tech professionals report satisfaction with their pay. </p>
+            <p>Layoffs have been a notable feature, impacting job security perceptions. Concurrently, the demand for AI skills has dramatically increased, with professionals in AI-related roles earning nearly 18% more. </p>
+            <p>These trends have spurred increased job searching, with 47% of tech professionals actively looking for new roles in 2024. Certifications are also gaining perceived value, with certified tech professionals earning more. </p>
+            <p>The rise of hybrid work models continues to shape the employment landscape. As of February 2023, 55% of remote-capable employees in the U.S. were in a hybrid arrangement. </p>
+            <code>// Key Trends 2024-2025</code>
+            <ul>
+                <li>Average Salary: $112,521 (1.2% increase). </li>
+                <li>AI Skills Demand: High, with ~18% higher earnings. </li>
+                <li>Job Searching: 47% actively looking. </li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Job_Role_Analysis">
+            <header>Job Role Analysis</header>
+            <p>This section details nine specific job roles that can be pursued with skills in HTML, CSS, JavaScript, and Python. We will analyze starting pay, job availability, and typical work arrangements.</p>
+            <p><strong>Junior Web Developer:</strong> Involved in basic coding, design, and layout of websites. They work under supervision, translating mockups into functional pages using <code>HTML</code>, <code>CSS</code>, and <code>JavaScript</code>. Python might be used for scripting. </p>
+            <p><strong>Front-End Developer:</strong> Specialize in the user-facing part of websites. Responsible for implementing visual elements and ensuring responsive design using <code>HTML</code>, <code>CSS</code>, and JavaScript frameworks. </p>
+            <p><strong>Back-End Developer:</strong> Focus on server-side logic, databases, and APIs. Python is popular for back-end development, often with frameworks like <code>Django</code> or <code>Flask</code>. </p>
+            <p>Other roles discussed include Website Editor, Webmaster, HTML Email Developer, Full Stack Developer, Python Developer, and Website Support Specialist. </p>
+            <ul>
+                <li>HTML Email Developer: Requires strong HTML/CSS for email clients. </li>
+                <li>Full Stack Developer: Proficient in both front-end and back-end. </li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Journey_to_Employment">
+            <header>Journey to Employment</header>
+            <p>Transitioning into the tech field, especially after a career break, involves several factors influencing the time to secure a first role. Employers' perceptions of career breaks are evolving, but it's beneficial to address any gaps proactively. </p>
+            <p>Framing time spent as a stay-at-home parent and managing an online business as periods of skill development (time management, project management, customer interaction) is crucial. New certifications are strong positives but must be complemented by a portfolio. </p>
+            <p>Networking efforts play a significant role. General estimates for IT career changers suggest a job search timeline from a few months to a year, actively shaped by job search activities. </p>
+            <p>Being located in Americus, Georgia, means a proactive strategy for virtual networking is necessary. <code>/* Portfolio is key! */</code></p>
+            <p>Strategies include optimizing your LinkedIn profile, joining relevant groups, and attending virtual meetups. Returnship programs are also excellent pathways for re-entering the workforce. </p>
+            <ul>
+                <li>Address career gaps proactively. </li>
+                <li>Portfolio: Crucial to show practical skills. </li>
+                <li>Networking: Virtual and local is important. </li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Strategic_Recommendations">
+            <header>Strategic Recommendations</header>
+            <p>Given the specific background and location in Americus, Georgia, certain strategies are recommended. Due to Americus having a smaller local tech market, the primary focus should be on remote job opportunities. </p>
+            <p>Utilize job board filters for "remote" and "Georgia". While remote roles are key, also explore local and regional possibilities, even contract or freelance work initially. </p>
+            <p>Crafting a compelling narrative is essential. Use a skills-based or combination resume format. Explicitly list roles like "Online Business Owner/Manager" and detail transferable skills like project management and digital marketing. </p>
+            <p>In your cover letter, articulate your motivation for transitioning to tech and how your unique experiences are an asset. For interviews, practice explaining your career break positively and develop a concise "elevator pitch". </p>
+            <p><code>// Emphasize transferable skills</code>. Landing the first job is a milestone; continuous learning is paramount thereafter. </p>
+        </section>
+
+        <section class="main-section" id="Key_Salary_Expectations">
+            <header>Key Salary Expectations</header>
+            <p>This section outlines key salary expectations based on Atlanta/Georgia averages for entry-level or general roles. It's important to note that salaries can vary significantly based on the specific company, exact responsibilities, and negotiation. </p>
+            <p>Atlanta figures are generally higher than broader Georgia averages. These are starting points and may require adjustment based on the Americus location if targeting local roles, though remote roles will align more with broader market rates. </p>
+            <ul>
+                <li>Junior Web Developer: $67,000 - $93,000 </li>
+                <li>Front-End Developer: $93,000 - $102,000 </li>
+                <li>Back-End Developer (Python focus): $92,000 - $116,000 </li>
+                <li>Full Stack Developer: $118,000 - $119,000 </li>
+                <li>Website Support Specialist: $43,000 - $50,000 </li>
+            </ul>
+            <p>Demand is strong for roles like Front-End, Back-End, Full Stack, and Python Developers. <code>const demand = "high";</code></p>
+            <p>Hybrid and fully remote work arrangements are prevalent and highly achievable for most listed roles. Estimated time to get hired for a dedicated career changer is typically 3 to 9 months. </p>
+        </section>
+
+    </main>
+</body>
+</html>
+CSS
+/* Basic Reset */
+body, header, section, p, ul, li, h1, h2, h3, nav, main, code {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    display: flex; /* For navbar and main content layout */
+}
+
+#navbar {
+    width: 280px; /* Fixed width for the navbar */
+    height: 100vh; /* Full viewport height */
+    position: fixed; /* Fixed position */
+    left: 0;
+    top: 0;
+    background-color: #f4f4f4;
+    border-right: 1px solid #ddd;
+    overflow-y: auto; /* Scroll if content overflows */
+    padding: 15px;
+}
+
+#navbar header {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+    text-align: center;
+}
+
+#navbar .nav-link {
+    display: block;
+    padding: 10px 15px;
+    color: #34495e;
+    text-decoration: none;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#navbar .nav-link:hover {
+    background-color: #e0e0e0;
+    color: #2c3e50;
+}
+
+#navbar .nav-link:last-child {
+    border-bottom: none;
+}
+
+#main-doc {
+    margin-left: 295px; /* Account for navbar width + a little space */
+    padding: 20px;
+    width: calc(100% - 280px); /* Remaining width */
+}
+
+.main-section {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+.main-section:last-child {
+    border-bottom: none;
+}
+
+.main-section header {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+.main-section p {
+    margin-bottom: 15px;
+    font-size: 1em;
+    color: #555;
+}
+
+.main-section code {
+    display: block; /* Make code blocks take full width */
+    background-color: #eef1f3;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.95em;
+    margin: 10px 0;
+    white-space: pre-wrap; /* Wrap long lines of code */
+    border: 1px solid #d1d9e0;
+}
+
+.main-section ul {
+    margin-left: 20px; /* Indent list */
+    margin-bottom: 15px;
+}
+
+.main-section li {
+    margin-bottom: 8px;
+    color: #444;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column; /* Stack navbar and main content */
+    }
+
+    #navbar {
+        width: 100%; /* Full width */
+        height: auto; /* Auto height */
+        position: static; /* Not fixed anymore */
+        border-right: none;
+        border-bottom: 2px solid #333;
+        overflow-y: visible;
+    }
+
+    #main-doc {
+        margin-left: 0;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .main-section header {
+        font-size: 1.6em;
+    }
+}
