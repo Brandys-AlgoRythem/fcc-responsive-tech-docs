@@ -1,4 +1,3 @@
-
 /* Basic Reset */
 body, header, section, p, ul, li, h1, h2, h3, nav, main, code {
     margin: 0;
@@ -6,107 +5,152 @@ body, header, section, p, ul, li, h1, h2, h3, nav, main, code {
     box-sizing: border-box;
 }
 
+/* General Body and Page Layout */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif; /* Primary Body Font */
+    background-color: #2C3E50; /* Primary Background: Dark Charcoal/Deep Navy */
+    color: #BDC3C7; /* Body Text Color: Light Gray */
     line-height: 1.6;
-    color: #333;
-    display: flex; /* For navbar and main content layout */
+    display: flex;
+    flex-direction: column; /* Stack main content for responsiveness */
+    align-items: flex-start; /* Align content to the start */
+    min-height: 100vh;
 }
 
+.container-wrapper {
+    display: flex;
+    width: 100%;
+    min-height: 100vh; /* Ensures content takes full height */
+}
+
+/* Navbar Styling */
 #navbar {
     width: 280px; /* Fixed width for the navbar */
     height: 100vh; /* Full viewport height */
     position: fixed; /* Fixed position */
     left: 0;
     top: 0;
-    background-color: #f4f4f4;
-    border-right: 1px solid #ddd;
+    background-color: #22303E; /* Darker shade for navbar background */
+    border-right: 1px solid #4A6278; /* Subtle border */
     overflow-y: auto; /* Scroll if content overflows */
     padding: 15px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3); /* Soft shadow */
+    transition: width 0.3s ease-in-out; /* Smooth transition for responsiveness */
 }
 
 #navbar header {
-    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6em;
     font-weight: bold;
-    margin-bottom: 15px;
-    color: #333;
+    margin-bottom: 20px;
+    color: #1ABC9C; /* Accent color for navbar header */
     text-align: center;
+    border-bottom: 1px solid #4A6278;
+    padding-bottom: 10px;
 }
 
 #navbar .nav-link {
     display: block;
-    padding: 10px 15px;
-    color: #34495e;
+    padding: 12px 15px;
+    color: #BDC3C7; /* Nav link text color */
     text-decoration: none;
-    border-bottom: 1px solid #eee;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    border-bottom: 1px solid #2F4050; /* Slightly lighter border for links */
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+    border-radius: 4px;
+    margin-bottom: 5px;
 }
 
 #navbar .nav-link:hover {
-    background-color: #e0e0e0;
-    color: #2c3e50;
+    background-color: #34495E; /* Darker background on hover */
+    color: #FFD700; /* Gold accent on hover */
+    transform: translateX(5px); /* Subtle slide effect */
 }
 
 #navbar .nav-link:last-child {
     border-bottom: none;
 }
 
+/* Main Content Area */
 #main-doc {
     margin-left: 295px; /* Account for navbar width + a little space */
     padding: 20px;
-    width: calc(100% - 280px); /* Remaining width */
+    flex-grow: 1; /* Allows main content to take remaining space */
+    max-width: calc(100% - 300px); /* Limit width */
 }
 
 .main-section {
+    background-color: #34495E; /* Slightly lighter background for sections */
+    padding: 30px;
+    border-radius: 10px;
     margin-bottom: 40px;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 20px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25); /* Soft shadow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.main-section:hover {
+    transform: translateY(-5px); /* Subtle lift on hover */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
 }
 
 .main-section:last-child {
-    border-bottom: none;
+    margin-bottom: 20px; /* Less margin for the last section */
 }
 
 .main-section header {
     font-size: 1.8em;
     font-weight: bold;
-    margin-bottom: 15px;
-    color: #2c3e50;
-    border-bottom: 2px solid #3498db;
-    padding-bottom: 5px;
+    margin-bottom: 20px;
+    color: #1ABC9C; /* Accent color for section headers */
+    border-bottom: 2px solid #4A6278; /* Subtle separator */
+    padding-bottom: 8px;
+    text-align: left; /* Keep section headers left-aligned */
 }
 
 .main-section p {
     margin-bottom: 15px;
     font-size: 1em;
-    color: #555;
+    color: #BDC3C7;
 }
 
 .main-section code {
-    display: block; /* Make code blocks take full width */
-    background-color: #eef1f3;
-    padding: 10px 15px;
-    border-radius: 4px;
-    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    background-color: #22303E; /* Darker background for code blocks */
+    padding: 15px;
+    border-radius: 8px;
+    font-family: 'Roboto Mono', monospace; /* Monospace font for code */
     font-size: 0.95em;
-    margin: 10px 0;
-    white-space: pre-wrap; /* Wrap long lines of code */
-    border: 1px solid #d1d9e0;
+    margin: 15px 0;
+    white-space: pre-wrap;
+    border: 1px solid #4A6278; /* Subtle border */
+    color: #FFD700; /* Gold text for code for high contrast */
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1); /* Inner shadow */
 }
 
 .main-section ul {
-    margin-left: 20px; /* Indent list */
-    margin-bottom: 15px;
+    list-style: none; /* Remove default bullet points */
+    padding-left: 0;
+    margin-bottom: 1.5em;
 }
 
-.main-section li {
-    margin-bottom: 8px;
-    color: #444;
+.main-section ul li {
+    position: relative;
+    padding-left: 25px; /* Space for custom bullet */
+    margin-bottom: 0.8em;
+    color: #BDC3C7;
 }
 
-/* Media Query for smaller screens */
+.main-section ul li::before {
+    content: '•'; /* Custom bullet point */
+    color: #1ABC9C; /* Accent color for bullets */
+    position: absolute;
+    left: 0;
+    font-size: 1.2em;
+    line-height: 1;
+}
+
+/* Responsive Design Adjustments */
 @media (max-width: 768px) {
-    body {
+    .container-wrapper {
         flex-direction: column; /* Stack navbar and main content */
     }
 
@@ -115,17 +159,57 @@ body {
         height: auto; /* Auto height */
         position: static; /* Not fixed anymore */
         border-right: none;
-        border-bottom: 2px solid #333;
+        border-bottom: 2px solid #4A6278; /* Border at the bottom */
         overflow-y: visible;
+        padding-bottom: 10px;
+    }
+
+    #navbar header {
+        font-size: 1.4em;
+        margin-bottom: 10px;
+    }
+
+    #navbar .nav-link {
+        padding: 10px 10px;
+        font-size: 0.9em;
     }
 
     #main-doc {
         margin-left: 0;
         width: 100%;
         padding: 15px;
+        max-width: 100%; /* Full width */
+    }
+
+    .main-section {
+        padding: 20px;
+        margin-bottom: 30px;
     }
 
     .main-section header {
         font-size: 1.6em;
+    }
+}
+
+@media (max-width: 480px) {
+    #navbar header {
+        font-size: 1.2em;
+    }
+
+    #navbar .nav-link {
+        font-size: 0.8em;
+        padding: 8px 5px;
+    }
+
+    .main-section {
+        padding: 15px;
+    }
+
+    .main-section header {
+        font-size: 1.4em;
+    }
+
+    .main-section p, .main-section ul li {
+        font-size: 0.9em;
     }
 }
